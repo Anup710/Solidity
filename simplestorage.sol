@@ -14,6 +14,7 @@ contract SimpleStorage {
     // People[] public people ;
 
     People public person = People({choicenumber: 45 , name: "Anup"}) ;
+    //creating an object of the struct manually. 
 
     function store (uint256 _favouritenumber) public {
         favouritenumber = _favouritenumber ;
